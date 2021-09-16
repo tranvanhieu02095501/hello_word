@@ -11,7 +11,7 @@ public class password {
 		String username = sc.nextLine();
 		System.out.println(" Nhập PassWord : ");
 		String password = sc.nextLine();
-		if(  username == U &&  password == P) {
+		if(  username.equals(U) &&  password.equals(P)) {
 			System.out.println("Nhập đúng (u,p)");
 		}else {
 			System.out.println("Nhập sai Username or PassWord");
