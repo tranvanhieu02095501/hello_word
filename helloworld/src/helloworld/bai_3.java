@@ -12,21 +12,26 @@ import java.util.Scanner;
 //Positive number
 public class bai_3 {
   public static void main(String[] args) {
-	 Scanner sc = new Scanner(System.in);
-	 int x=sc.nextInt();
-	  if(x>0 && x<=1)
-		  System.out.println("positive small number");
-	  else if(x>0 && x>1 && x<=1000)
-		  System.out.println("positive  number");
-	  else if(x>0 && x>1000)
-		  System.out.println("positive large number");
-	  else if(x==0)
-		  System.out.println("zero");
-	  else if(x<0 && x>=-1)
-		  System.out.println("negastive small number");
-	  else if(x<0 && x<-1 && x>=-1000)
-		  System.out.println("negative number");
-	  else if(x<0 && x<-1000)
-		  System.out.println("negative small number");
+	
+			// TODO Auto-generated method stub
+			 double a ;
+		        Scanner scanner = new Scanner(System.in);
+		        System.out.print("Input a number: ");
+		        a = scanner.nextDouble();	
+		        
+		        if ( a == 0 )
+		        {
+		        	 System.out.println(" Zero  ");
+		        	 }
+		        if ( Math.abs(a) < 1) 
+		        {
+		        	System.out.println(" Small  ");
+		        }
+		        if ( a > 1000000) 
+		        {
+		        	System.out.println(" Large  ");
+		        }
+		        if (a > 0 ) {System.out.println(" positive  ");}
+		        else {System.out.println(" negative  ");}
 }   
 }
