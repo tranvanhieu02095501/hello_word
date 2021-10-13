@@ -12,14 +12,14 @@ public class bai4 {
              System.out.print(2);
          }
          for (int i = 3; i < n; i+=2) {
-             if (isPrimeNumber(i)) {
+             if (kiemtra(i)) {
                  System.out.print(" " + i);
              }
          }
      }
      
      
-     public static boolean isPrimeNumber(int n) {
+     public static boolean kiemtra(int n) {
          
          if (n < 2) {
              return false;
