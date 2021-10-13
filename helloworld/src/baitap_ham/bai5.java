@@ -3,6 +3,7 @@ package baitap_ham;
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
 
+
 //5: Hãy viết chương trình thực hiện các yêu cầu sau:
 //- Xây dựng hàm giải phương trình bậc (ax2 + bx + c = 0), với hệ số a & b & c được truyền
 //vào qua thông số của hàm.
